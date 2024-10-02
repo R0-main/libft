@@ -14,7 +14,7 @@
 
 void	*ft_memcpy(void *dest, const void *src, size_t n)
 {
-	int	i;
+	size_t	i;
 
 	i = 0;
 	while (i++ < n)
@@ -26,6 +26,23 @@ void	*ft_memcpy(void *dest, const void *src, size_t n)
 	return (dest - n);
 }
 
+//#include <stdio.h>
+//#include <string.h>
+//
+//int	main(void)
+//{
+//	char	str[] = "Nuts Channel is Back";
+//
+//	printf("%s : %p\n", str, str);
+//	printf("%p\n", (char *)ft_memcpy(str + 2, str, 5));
+//	printf("%s : %p\n", str, str);
+//	
+//	char	str2[] = "Nuts Channel is Back";
+//	printf("%s\n", str2);
+//	memcpy(str2 + 2, str2, 5);
+//	printf("%s\n", str2);
+//}
+//
 //#include <string.h>
 //#include <stdio.h>
 //int	main(void)
