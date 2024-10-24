@@ -6,7 +6,7 @@
 /*   By: rguigneb <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/30 19:26:01 by rguigneb          #+#    #+#             */
-/*   Updated: 2024/10/23 18:16:44 by rguigneb         ###   ########.fr       */
+/*   Updated: 2024/10/24 14:42:23 by rguigneb         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,7 +18,7 @@ size_t	ft_strlcpy(char *dest, const char *src, size_t size)
 
 	i = 0;
 	while (i < size - 1 && src[i])
- 	{
+	{
 		dest[i] = src[i];
 		i++;
 	}
